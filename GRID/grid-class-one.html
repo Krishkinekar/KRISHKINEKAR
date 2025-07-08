@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            width: 100vw;
+            height: 100vh;
+            margin: 0;
+            padding: 0;
+        }
+        .grid-container{
+            width: 100%;
+            height: 100%;
+            display: grid;
+            grid-template-columns: 1fr 5fr 1fr;
+       
+        }
+        .one{
+            width: 100%;
+            height: 100%;
+            background-color: darkgreen;
+        }
+        .two{
+            width: 100%;
+            height: 100%;
+            background-color: red;
+        }
+       .three{
+        width: 100%;
+        height: 100%;
+        background-color: darkgreen;
+       }
+      
+    </style>
+</head>
+<body>
+    <div class="grid-container">
+        <div class="one"></div>
+        <div class="two"></div>
+       <div class="three"></div>
+       <div class="one"></div>
+        <div class="two" style="background-color: chartreuse;"></div>
+       <div class="three"></div>
+    </div>
+</body>
+</html>
